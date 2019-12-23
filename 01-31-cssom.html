@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CSSOM Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <h1>CSSOM Example</h1>
+    <h2>A normal paragraph</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non ipsum ut nisi consequat vulputate a vel purus. Nam fermentum enim laoreet, semper nisl a, mattis ante. Donec ut sagittis nunc. Praesent facilisis, orci sed tristique porta, tellus augue vehicula ipsum, quis fringilla neque justo non urna. Vestibulum nec porta sapien. Proin cursus luctus eros sed congue. Quisque ac tortor at justo viverra aliquam et non mi. Morbi ac lectus consectetur, faucibus est ut, dictum diam. Sed nisi orci, egestas nec justo in, scelerisque euismod velit. Quisque et lectus quis neque aliquet laoreet id a quam. Aenean vulputate bibendum metus, faucibus condimentum libero ultrices ut. Mauris libero lacus, lacinia id ligula non, tincidunt fermentum felis. Etiam id nunc eget augue ultricies pharetra quis et magna.</p>
+    <h2>A bold paragraph</h2>
+    <p class="aBoldElement">Ut fringilla nisl quis luctus pellentesque. Donec bibendum sapien nec sem tristique finibus. Pellentesque mollis ultricies nibh ac fermentum. Nulla facilisis, nulla nec posuere ullamcorper, mauris orci porttitor ipsum, at condimentum dui arcu a nulla. Sed eget odio magna. Mauris finibus est leo, sit amet egestas dolor molestie nec. Suspendisse in porta quam. Sed quis mollis lacus. Proin posuere ultrices tincidunt. Phasellus id sagittis justo. Quisque quam dui, ornare sit amet nulla sit amet, tincidunt laoreet quam. Aenean neque neque, pulvinar vitae ullamcorper tristique, cursus sit amet quam. In faucibus sollicitudin ante, in hendrerit ligula dignissim accumsan. Vivamus sodales elit sit amet massa finibus, eget lobortis ante finibus. Quisque tincidunt nulla ac posuere varius. Donec tincidunt, est vel dignissim mattis, libero est hendrerit ex, non ullamcorper eros ipsum quis erat.</p>
+    <h3>Notes</h3>
+    <p>The second paragraph has a CSS font-weight of bold that has been applied via JavaScript.</p>
+    <p>If you open the DevTools Console you will also see the entire (read-only) CSSStyleDeclaration object for this paragraph.</p>
+    <script>
+      const boldElement = document.querySelector('.aBoldElement');
+      boldElement.style.fontWeight = 'bold';
+      console.log(window.getComputedStyle(boldElement));
+    </script>
+  </body>
+</html>

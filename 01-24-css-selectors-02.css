@@ -1,0 +1,8 @@
+p {
+  color: white;
+  background-color: black;
+}
+p:nth-of-type(odd) {
+  color: black;
+  background-color: white;
+}

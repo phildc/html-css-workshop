@@ -1,0 +1,10 @@
+/* border styles applied in all directions */
+border: 5px solid red;
+/* border styles applied to the top */
+border-top: 5px solid red;
+/* border styles applied to the right */
+border-right: 15px dotted green;
+/* border styles applied to the bottom */
+border-bottom: 10px dashed blue;
+/* border styles applied to the left */
+border-left: 10px double pink;

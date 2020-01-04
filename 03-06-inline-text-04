@@ -1,0 +1,12 @@
+/* styles */
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+<!-- markup -->
+<p>My favorite colors are <span class="red">red</span>, <span class="green">green</span> and <span class="blue">blue</span>.</p>

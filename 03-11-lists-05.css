@@ -1,0 +1,6 @@
+.alphabetic {
+  list-style: upper-alpha;
+}
+.roman {
+  list-style: upper-roman;
+}

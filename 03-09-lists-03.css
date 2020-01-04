@@ -1,0 +1,14 @@
+/* Alternative styles for unordered lists */
+.square {
+  list-style: square;
+}
+.circle {
+  list-style: circle;
+}
+/* Alternative styles for ordered lists */
+.upper-alpha {
+  list-style: upper-alpha;
+}
+.upper-roman {
+  list-style: upper-roman;
+}

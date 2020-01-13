@@ -1,0 +1,52 @@
+<div class="select-wrapper">
+  
+  <select id="countries">
+  
+    <option value="england">England</option>
+    <option value="scotland">Scotland</option>
+    <option value="ireland">Ireland</option>
+    <option value="wales">Wales</option>
+  
+  </select>
+
+</div>
+
+<style>
+
+/* CSS */
+
+select {
+  
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid gray;
+  box-shadow: none;
+  color: #666;
+  font-size: 14px;
+  padding: 10px 0;
+  width: 200px;
+  -webkit-appearance: none;
+  
+}
+
+.select-wrapper {
+  
+  position: relative;
+  width: 200px;
+  
+}
+
+.select-wrapper:after {
+  
+  content: "< >";
+  color: #666;
+  font-size: 14px;
+  top: 11px;
+  right: 0;
+  transform: rotate(90deg);
+  position: absolute;
+  z-index: -1;
+}
+
+</style>
